@@ -33,8 +33,7 @@ namespace IsExe
         }
         static void Main(string[] args)
         {
-            string fileName = @"C:\Windows\System32\cmd.exe"; //exe file  
-            
+            string fileName = @"C:\Windows\System32\cmd.exe"; //exe file            
             if (IsExe(fileName))
             {
                 Console.WriteLine("PE file");
